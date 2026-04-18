@@ -633,7 +633,7 @@
   <a href="#gallery" onclick="closeMobile()">Gallery</a>
   <a href="#areas" onclick="closeMobile()">Coverage Areas</a>
   <a href="#contact" onclick="closeMobile()">Contact</a>
-  <a href="https://www.youtube.com/@SmileMarriageBureau" target="_blank" class="social-btn s-yt" style="width:auto;border-radius:50px;padding:8px 18px;gap:8px;font-size:0.9rem;font-weight:600;text-decoration:none;" title="YouTube">▶️ YouTube</a>
+  <a href="https://www.youtube.com/@SmileMarriageBureau" target="_blank" class="social-btn s-yt" title="YouTube">▶️</a>
   <a href="https://forms.gle/UHDaBunTjUoLEhWH6" target="_blank" style="color:var(--rose);">✨ Register Now</a>
 </div>
 
@@ -1032,6 +1032,56 @@
   </div>
 </section>
 
+<!-- ── TERMS & CONDITIONS ── -->
+<section id="terms" class="section-alt">
+  <div class="section-header reveal">
+    <div class="section-tag">✦ Legal</div>
+    <h2>Terms &amp; <em>Conditions</em></h2>
+    <div class="gold-rule"></div>
+    <p>Tap the button below to watch our Terms &amp; Conditions before registering.</p>
+  </div>
+  <div class="reveal" style="display:flex; justify-content:center; margin-top:10px;">
+    <a href="https://www.youtube.com/shorts/ne53DGRrDlU" target="_blank" title="Watch Terms & Conditions" style="
+      display:flex; flex-direction:column; align-items:center; gap:14px;
+      text-decoration:none;
+    ">
+      <!-- YouTube icon circle -->
+      <div style="
+        width:72px; height:72px; border-radius:50%;
+        background:#FF0000;
+        display:flex; align-items:center; justify-content:center;
+        box-shadow:0 6px 24px rgba(255,0,0,0.4);
+        transition:transform 0.25s, box-shadow 0.25s;
+        position:relative;
+      " onmouseover="this.style.transform='scale(1.12)';this.style.boxShadow='0 10px 32px rgba(255,0,0,0.55)'"
+         onmouseout="this.style.transform='scale(1)';this.style.boxShadow='0 6px 24px rgba(255,0,0,0.4)'">
+        <!-- Play triangle -->
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+        <!-- Pulse ring -->
+        <span style="
+          position:absolute; inset:-6px; border-radius:50%;
+          border:2px solid rgba(255,0,0,0.35);
+          animation:yt-pulse 1.8s ease-out infinite;
+        "></span>
+      </div>
+      <span style="
+        font-size:0.88rem; font-weight:700;
+        color:var(--text2); letter-spacing:0.06em;
+        text-transform:uppercase;
+      ">Watch Now</span>
+    </a>
+  </div>
+</section>
+
+<style>
+@keyframes yt-pulse {
+  0%   { transform:scale(1);   opacity:0.8; }
+  100% { transform:scale(1.6); opacity:0;   }
+}
+</style>
+
 <!-- ── FOOTER ── -->
 <footer>
   <div class="footer-grid">
@@ -1057,6 +1107,7 @@
         <li><a href="#areas">Coverage Areas</a></li>
         <li><a href="#contact">Contact Us</a></li>
         <li><a href="https://forms.gle/UHDaBunTjUoLEhWH6" target="_blank">Register Now</a></li>
+        <li><a href="#terms">Terms &amp; Conditions</a></li>
       </ul>
     </div>
     <div class="footer-col">
